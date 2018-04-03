@@ -1,14 +1,28 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div id="top">
+    <div id="icon">
+      <!-- image here -->
+    </div>
+  </div>
+  <div id="bottom">
+    <div id="form">
+      <div id="login">
+        <p text-center>LOGIN</p>
+        <ion-item>
+          <ion-label floating>Email</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <div id="button">
+            <button color="primary">LOGIN</button>
+        </div>
+      </div>
+      <button text-center id="forgot-password" ion-button clear>FORGOT PASSWORD</button>
+    </div>
+  </div>
 </ion-content>
